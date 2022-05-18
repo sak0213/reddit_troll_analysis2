@@ -29,3 +29,5 @@ Using the above data, I trained a random forest model with grid cv for like 43 h
 After getting my model fitted, I removed a few thousand features with less than .00001 weight and retrained the model with some hyperparamter tuning and ended with the same f1-score, but slightly better recall (loss in precision though). I'll likely take another stab at retraining to get better results.
 
 Added this model to my "user analyzer" file, which pulls summary stats for a users account with a cute chart. Currently pulling comments for "normal" users, then i'll add that to the analyzer and see what it looks like.
+
+Wow, after copying the code i used to pull normal user posts, i just realized how horribly wrong this while loop ran. Thank god for union removing duplicates.
