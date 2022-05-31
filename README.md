@@ -34,3 +34,7 @@ Wow, after copying the code i used to pull normal user posts, i just realized ho
 
 
 <img src="output.png">
+
+
+
+The original goal of my analysis was to see if trolls changed their levels of activity after the invasion of ukraine. [here](reddit_analysis.ipynb)
