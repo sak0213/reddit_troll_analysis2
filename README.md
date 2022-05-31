@@ -31,3 +31,4 @@ After getting my model fitted, I removed a few thousand features with less than 
 Added this model to my "user analyzer" file, which pulls summary stats for a users account with a cute chart. Currently pulling comments for "normal" users, then i'll add that to the analyzer and see what it looks like.
 
 Wow, after copying the code i used to pull normal user posts, i just realized how horribly wrong this while loop ran. Thank god for union removing duplicates.
+<img src="output.png">
